@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_to_favorite_btn"
+        android:title="@string/add_to_favorite" />
+    <item
+        android:id="@+id/text_note"
+        android:title="@string/text_note"
+        android:visible="false" />
+    <item
+        android:id="@+id/help_item"
+        android:title="@string/help"
+        android:visible="false" />
+</menu>

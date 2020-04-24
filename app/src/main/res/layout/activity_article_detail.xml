@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/article_detail_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="@string/article_detail" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/guardian_article_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/guardian_article_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Section"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/guardian_article_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all|map"
+            android:text="Link" />
+
+    </LinearLayout>
+</RelativeLayout>
+

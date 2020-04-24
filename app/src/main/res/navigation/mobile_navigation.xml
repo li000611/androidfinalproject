@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_fragment_nasa_image_of_the_day">
+
+    <fragment
+        android:id="@+id/nav_fragment_nasa_image_of_the_day"
+        android:name="com.example.finalproject.ui.NasaImageOfTheDay.NasaImageOfTheDayFragment"
+        android:label="@string/menu_nasa_image_of_the_day"
+        tools:layout="@layout/list_template" />
+
+    <fragment
+        android:id="@+id/nav_fragment_the_guardian_news_article_search"
+        android:name="com.example.finalproject.ui.TheGuardianNewsArticleSearch.GuardianNewsArticleSearchFragment"
+        android:label="@string/menu_guardian_news_article_search"
+        tools:layout="@layout/fragment_the_guardian_news_article_search" />
+
+    <fragment
+        android:id="@+id/nav_fragment_nasa_earth_imagery_db"
+        android:name="com.example.finalproject.ui.NasaEarthImageryDatabase.NasaEarthImageryDatabaseFragment"
+        android:label="@string/menu_nasa_earth_imagery_db"/>
+
+    <fragment
+        android:id="@+id/nav_fragment_bbc_news_reader"
+        android:name="com.example.finalproject.ui.BBCNewsReader.BBCNewsReaderFragment"
+        android:label="@string/menu_bbc_news_reader"
+        tools:layout="@layout/fragment_bbc_news_reader" />
+
+</navigation>

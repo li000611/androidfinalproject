@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Guidededel</string>
+
+    <string name="menu_nasa_image_of_the_day">Bức ảnh của ngày hôm nay - Thang Nguyen - v1</string>
+    <string name="menu_guardian_news_article_search">Tìm kiếm báo Guardian News - Diep Pham - v1</string>
+    <string name="menu_nasa_earth_imagery_db">Kho dữ liệu ảnh trái đất của NASA - Chanh Duong - v1</string>
+    <string name="menu_bbc_news_reader">Mục đọc báo của BBC - Min Li - v1</string>
+    <string name="nasa_image_of_the_day_pls_enter_your_date">Vui lòng nhập ngày của bạn</string>
+    <string name="insert_successfully">Ảnh đã được lưu trữ</string>
+    <string name="fetch_nasa_images_success">Anh cua NASA da duoc lay thanh cong</string>
+    <string name="guardian_news_enter_your_article_search">Vui long nhap tu khoa</string>
+    <string name="OK">OK</string>
+    <string name="cancel">Bo</string>
+    <string name="guardian_articles_fetch_success">Toan bo tin cua The Guardian da duoc lay thanh cong</string>
+    <string name="delete">Xóa</string>
+    <string name="edit">Thêm yêu thích</string>
+    <string name="nasa_earth_images_fetch_success">Toàn bộ ảnh của NASA được lấy thành công</string>
+    <string name="latitude">Vĩ tuyến</string>
+    <string name="longitude">Kinh tuyến</string>
+    <string name="enter_longitude_latitude">Nhập vĩ tuyến và kinh tuyến</string>
+    <string name="nasa_earth_image_detail">Thông tin chi tiết ảnh của NASA</string>
+    <string name="add_to_favorite">Thêm vào yêu thích</string>
+    <string name="item_is_added_to_favorite">Ảnh đã được thêm vào yêu thích</string>
+    <string name="delete_this_earth_image">Xóa ảnh trái đất này ?</string>
+    <string name="deleted_success">Đã xóa</string>
+    <string name="delete_this_bbc_news">Xóa tin của BBC này ?</string>
+    <string name="bbc_news_detail">Thông tin chi tiết của BBC</string>
+    <string name="all_today_bbc_news">Toàn bộ tin tức BBC hôm nay</string>
+    <string name="hd_image_url_colon">URL của ảnh HD:</string>
+    <string name="image_url_colon">URL của ảnh:</string>
+    <string name="delete_this_nasa_image">Xóa ảnh NASA này ?</string>
+    <string name="article_detail">Thông tin chi tiết</string>
+    <string name="all_related_guardian_news">Toàn bộ tin tức liên quan của The Guardian</string>
+    <string name="delete_this_guardian_news">Xóa tin tức này ?</string>
+    <string name="help">Help</string>
+    <string name="help_bbc_content">Bấm vào nút lơ lửng để xem toàn bộ tin tức và thêm vào mục yêu thích</string>
+    <string name="help_nasa_earth_image_content">Bấm vào nút lơ lửng để xem toàn bộ ảnh trái đất của NASA và thêm vào mục yêu thích</string>
+    <string name="help_nasa_image_of_the_day">Bấm vào nút lơ lửng để tìm ảnh NASA của ngày và thêm vào mục yêu thích</string>
+    <string name="help_guardian_news_content">Bấm vào nút lơ lửng để xem toàn bộ tin tức của Guardian dựa trên từ khóa và thêm vào mục yêu thích</string>
+    <string name="text_note">Ghi chu</string>
+    <string name="enter_your_note">Ghi chú vào</string>
+</resources>

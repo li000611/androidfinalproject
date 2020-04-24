@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fragment_nasa_image_of_the_day"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_nasa_image_of_the_day" />
+        <item
+            android:id="@+id/nav_fragment_the_guardian_news_article_search"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="@string/menu_guardian_news_article_search" />
+        <item
+            android:id="@+id/nav_fragment_nasa_earth_imagery_db"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_nasa_earth_imagery_db" />
+        <item
+            android:id="@+id/nav_fragment_bbc_news_reader"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="@string/menu_bbc_news_reader" />]
+    </group>
+</menu>
